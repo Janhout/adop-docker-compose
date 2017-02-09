@@ -257,7 +257,7 @@ jenkins:
 jenkins-slave:
   container_name: jenkins-slave
   restart: always
-  image: accenture/adop-jenkins-slave:0.1.4
+  image: janhout/adop-jenkins-slave:0.1.5
   net: ${CUSTOM_NETWORK_NAME}
   privileged: true
   environment:
